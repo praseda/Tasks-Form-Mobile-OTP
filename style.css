@@ -1,0 +1,99 @@
+form {
+	width: 510px;
+	margin: 40px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #81b6f0; 
+}
+
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="text"] {
+    width: 450px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 16px;
+  }
+
+  .container {
+    width: 302px;
+    height: 175px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+#number, #verificationcode {
+    width: calc(100% - 24px);
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    outline: black;
+}
+
+#recaptcha-container {
+    margin-bottom: 5px;
+}
+
+#send, #verify {
+    width: 100%;
+    height: 40px;
+    outline: black;
+}
+
+.p-conf, .n-conf {
+    width: calc(100% - 22px);
+    border: 2px solid green;
+    padding: 8px 10px;
+    margin: 4px 0px;
+    background-color: rgba(0, 249, 12, 0.5);
+    display: none;
+}
+
+.n-conf {
+    border-color: red;
+    background-color: rgba(255, 0, 4, 0.5);
+}
+
+  
